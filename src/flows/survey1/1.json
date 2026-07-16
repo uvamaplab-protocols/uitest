@@ -1,0 +1,18 @@
+{
+  "elements": [
+    {
+      "type": "Text",
+      "text": "Now that you're home, how was your day?"
+    },
+    {
+      "type": "Buttons",
+      "buttons": [
+        "Great",
+        "Okay",
+        "ad",
+        "Prefer not to answer"
+      ],
+      "selectable": true
+    }
+  ]
+}

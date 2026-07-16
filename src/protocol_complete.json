@@ -1,0 +1,73 @@
+{
+  "theme_light": {
+    "accent": "#007BFF",
+    "text": "#424242",
+    "primary": "#F5F5F5",
+    "secondary": "#FFFFFF",
+    "secondarybutton": "#EEEEEE"
+  },
+  "theme_dark": {
+    "accent": "#66B2FF",
+    "text": "#FFFFFF",
+    "primary": "#121212",
+    "secondary": "#202020",
+    "secondarybutton": "#333333"
+  },
+  "start_flow": "flow://flows/survey1",
+  "home": {
+    "element": {
+      "type": "list",
+      "elements": [
+        {
+          "type": "alert",
+          "title": "Test Protocol",
+          "message": "Test protocol description",
+          "icon": "/assets/home_instructions.png"
+        },
+        {
+          "type": "tiles",
+          "title": "Tiles header",
+          "actions": [
+            {
+              "text": "Video Flow",
+              "icon": "/assets/home_mindtrails.png",
+              "action": "flow://flows/video",
+              "backgroundcolor": "#1A206AFF",
+              "markcompleted": false
+            },
+            {
+              "text": "inputs!",
+              "icon": "/assets/home_mindtrails.png",
+              "action": "flow://flows/inputs",
+              "backgroundcolor": "#1A206AFF",
+              "markcompleted": true
+            },
+            {
+              "text": "survey 1",
+              "icon": "/assets/home_instructions.png",
+              "action": "flow://flows/how%20was%20your%20day%3F",
+              "backgroundcolor": "#1A00E05A",
+              "markcompleted": true
+            },
+            {
+              "text": "survey 2",
+              "icon": "/assets/home_resources.png",
+              "action": "flow://flows/survey2",
+              "backgroundcolor": "#1A00C2FF",
+              "markcompleted": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Home",
+      "icon": "/assets/menu_home.png"
+    }
+  ],
+  "settings": {
+    "configs": "flow://flows/configs.json"
+  }
+}

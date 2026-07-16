@@ -1,0 +1,6 @@
+{
+	"mode": "select",
+	"restore_elements": true,
+	"completed_alert": "Inputs Completed",
+	"abandoned_alert": "Inputs Abandoned"
+}

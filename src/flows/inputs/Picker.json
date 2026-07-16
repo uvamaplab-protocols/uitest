@@ -1,0 +1,39 @@
+{
+    "header_text": "Picker",
+    "elements": [
+		{
+			"type": "Text",
+			"text": "With 1 Option"
+		},
+        {
+            "type": "Picker",
+            "items": [
+				"Option 1"
+			]
+        },
+		{
+			"type": "Text",
+			"text": "With 2 Options"
+		},
+        {
+            "type": "Picker",
+            "items": [
+				"Option 1",
+				"Option 2"
+			],
+			"variable_name": "picker_input"
+        },
+		{
+			"type": "Text",
+			"text": "With 3 Options"
+		},
+        {
+            "type": "Picker",
+            "items": [
+				"Option 1",
+				"Option 2",
+				"Option 3"
+			]
+        }
+    ]
+}

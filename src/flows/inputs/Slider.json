@@ -1,0 +1,37 @@
+{
+    "header_text": "Text Entry",
+    "elements": [
+		{
+			"type":"Text",
+			"text":"Without Other Options"
+		},
+        {
+            "type": "Slider",
+			"min": 1,
+			"max": 7,
+			"variable_name": "slider_input"
+        },
+		{
+			"type":"Text",
+			"text":"With Other Options"
+		},
+        {
+            "type": "Slider",
+			"min": 1,
+			"max": 7,
+			"others": ["a","b","c"],
+			"variable_name": "other_input"
+        },
+				{
+			"type":"Text",
+			"text":"With 'Other' Other Options"
+		},
+        {
+            "type": "Slider",
+			"min": 1,
+			"max": 7,
+			"others": ["a","b","!Other"],
+			"variable_name": "other_text_input"
+        }
+    ]
+}

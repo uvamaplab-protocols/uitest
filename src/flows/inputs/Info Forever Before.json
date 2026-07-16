@@ -1,0 +1,13 @@
+{
+  "information": {
+    "elements": [
+      {
+        "type": "Media",
+        "url": "/assets/home_banner.png"
+      }
+    ],
+    "position": "before",
+    "condition": null,
+    "information_count": -1
+  }
+}

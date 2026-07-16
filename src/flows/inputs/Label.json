@@ -1,0 +1,9 @@
+{
+    "header_text": "Label",
+    "elements": [
+        {
+            "type": "Label",
+            "text": "This is a label"
+        }
+    ]
+}

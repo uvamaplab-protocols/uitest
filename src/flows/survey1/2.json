@@ -1,0 +1,21 @@
+{
+  "header_text": "Demographics 1",
+  "header_icon": "assets/subtitle.png",
+  "elements": [
+    {
+      "type": "Text",
+      "text": "What is your favorite color?"
+    },
+    {
+      "type": "Buttons",
+      "buttons": [
+        "0::Red",
+        "1::Blue",
+        "2::Green",
+        "99::Prefer not to answer"
+      ],
+      "selectable": true,
+      
+    }
+  ]
+}

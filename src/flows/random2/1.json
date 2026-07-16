@@ -1,0 +1,9 @@
+{
+    "header_text": "random survey 2",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "This is random survey 2"
+        }
+    ]
+}

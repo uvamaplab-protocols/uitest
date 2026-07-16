@@ -1,0 +1,23 @@
+{
+    "header_text": "Scheduler",
+    "elements": [
+        { "type": "text", "text": "Scheduler with time"},
+        {
+            "type": "Scheduler",
+            "message": "This is a scheduler",
+            "days_ahead": 1,
+            "action": "flow://flows/survey1",
+            "count": 2,
+            "variable_name": "scheduler_input"
+        },
+        { "type": "text", "text": "Scheduler without time"},
+        {
+            "type": "Scheduler",
+            "message": "This is a scheduler",
+            "days_ahead": 1,
+            "action": "flow://flows/survey1",
+            "count": 2,
+            "has_time": false
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "header_text": "Demographics",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "What planet are you from?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0::Mars",
+                "1::Venus",
+                "2::Mercury"
+            ],
+            "selectable": true,
+            "multi_select": true,
+            "report": "Planet",
+            "variable_name": "survey3_planet"
+        }
+    ]
+}

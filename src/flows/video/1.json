@@ -1,0 +1,14 @@
+{
+    "header_text": "Video",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "This is a video"
+        },
+        {
+            "type": "Media",
+            "border": false,
+            "url": "/videos/video1.mp4"
+        }
+    ]
+}

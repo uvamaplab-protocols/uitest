@@ -1,0 +1,16 @@
+{
+    "header_text": "Button Selection",
+    "elements": [
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Option 1",
+                "Option 2",
+                "Option 3",
+                "Prefer not to answer"
+            ],
+            "selectable": true,
+            "variable_name": "buttons_input"
+        }
+    ]
+}
