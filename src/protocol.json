@@ -29,9 +29,6 @@
           "icon": "/assets/home_instructions.png"
         },
         {
-          "type": "goals"
-        },
-        {
           "type": "sessions",
           "left": {
             "text": "{0} Sessions Completed",
